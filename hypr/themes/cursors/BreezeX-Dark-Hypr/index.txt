@@ -1,0 +1,7 @@
+[Icon Theme]
+Name=BreezeX-Dark-Hypr
+Comment=Breeze cursor for Hyprland
+Inherits=BreezeX-Dark
+
+
+#INSTALAR sudo pacman -S breeze-cursors

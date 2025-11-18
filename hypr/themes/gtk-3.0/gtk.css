@@ -1,0 +1,30 @@
+@define-color bg_color #1e1f29;
+@define-color fg_color #f8f8f2;
+@define-color selected_bg_color #44475a;
+@define-color selected_fg_color #ffffff;
+@define-color tooltip_bg_color #282a36;
+@define-color tooltip_fg_color #f8f8f2;
+
+* {
+    background-color: @bg_color;
+    color: @fg_color;
+    border-radius: 6px;
+    font-family: Inter, sans-serif;
+}
+
+entry,
+textview,
+button,
+headerbar,
+window {
+    background-color: @bg_color;
+}
+
+button:hover {
+    background-color: @selected_bg_color;
+}
+
+selection {
+    background-color: @selected_bg_color;
+    color: @selected_fg_color;
+}

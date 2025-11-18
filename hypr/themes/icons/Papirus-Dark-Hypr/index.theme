@@ -1,0 +1,8 @@
+[Icon Theme]
+Name=Papirus-Dark-Hypr
+Comment=Custom Papirus for Hyprland
+Inherits=Papirus-Dark
+Directories=.
+
+# Esto permite usar todo Papirus-Dark del sistema
+# Instalar sudo pacman -S papirus-icon-theme
